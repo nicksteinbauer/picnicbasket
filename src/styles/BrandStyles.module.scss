@@ -1,0 +1,68 @@
+@use "./vars.scss" as vars;
+
+
+.nav {
+    background-color: vars.$red;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: vars.$displayText;
+    flex-wrap: wrap;
+    position: relative;
+    border: 4px solid #000;
+}
+
+.logo {
+    
+    padding: 10px 20px;
+    width: 100%;
+    img {
+        margin: 0 auto;
+    }
+    @media screen and (min-width: vars.$screen-xxs) {
+        flex: 0 0 200px;
+    }
+}
+
+.contact {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: .8em;
+    width: 100%;
+    @media screen and (min-width: vars.$screen-md) {
+        width: auto;
+    }
+}
+
+.brandNav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 10px 10px;
+    text-align: center;
+    width: 100%;
+    @media screen and (min-width: vars.$screen-xxs) {
+        width: auto;
+    }
+    @media screen and (min-width: vars.$screen-md) {
+        line-height: .8;
+        padding: 0 10px;
+    }
+    a:link, a:active, a:visited {
+        color: #fff;
+        text-decoration: none;
+        padding: 0 8px;
+        @media screen and (min-width: vars.$screen-md) {
+            
+        }
+        transition: background-color .3s ease;
+        background-color: rgba($color: #fff, $alpha: 0);
+    }
+    a:hover {
+        background-color: rgba($color: #fff, $alpha: .3);
+    }
+}
+
+.brandLink {
+    height: 100%;
+}

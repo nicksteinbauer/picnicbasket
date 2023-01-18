@@ -1,0 +1,96 @@
+@use "./vars.scss" as vars;
+
+.h1, .h2 {
+  margin: 0;
+  padding: 0;
+}
+
+
+.mainBack {
+  background-image: url('../../public/PibBackground.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  @media screen and (min-width: vars.$screen-md) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+}
+
+.mainBlur {
+  padding-top: 62px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  //position: relative;
+  //height: 100%;
+  
+  > div {
+    background-color: rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+    overflow: scroll;
+    border-radius: 20px;
+    // @media screen and (min-width: vars.$screen-md) {
+    //   position: absolute;
+    //   top: 164px; right: 20px; bottom: 20px; left: 20px;
+    // }
+    //height: 100%;
+  }
+  
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .mainBlur > div {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);  
+  }
+  
+}
+
+.mainContent {
+  
+  height: 100%;
+  .about {
+    // background-image: url('../../public/PicnicWatercolorSm.png');
+    // background-position: right -50px center;
+    // background-size: 500px 594px;
+    // background-repeat: no-repeat;
+    min-height: 600px;
+    > div {
+      min-height: 600px;
+    }
+    
+  }
+  .teeShirt {
+    background-color: vars.$red;
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+    color: #fff;
+    padding: 30px;
+    //justify-content: flex-end;
+    .teePadd {
+      order: 2;
+    }
+    .textContent {
+      padding: 20px;
+    }
+  }
+}
+
+.textContent {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  @media screen and (min-width: vars.$screen-md) {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+
+.bevPadd {
+  min-height: 500px;
+}

@@ -1,0 +1,18 @@
+@use "./vars.scss" as vars;
+
+.aboutImage {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    @media screen and (min-width: vars.$screen-md) {
+        position: relative;
+    }
+    img {
+        position: static !important;
+        height: auto !important;
+        opacity: .4;
+        box-sizing: border-box;
+        display: block;
+    }
+}
