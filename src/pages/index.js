@@ -42,13 +42,7 @@ export default function Home() {
                       The Picnic Basket - Find Great Things at Put-in-Bay
                     </h1>
                     <div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis in urna varius mattis. 
-                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                        Etiam hendrerit et nulla eget euismod. Nunc sodales neque a rutrum dapibus. 
-                        In venenatis tempus pellentesque. Fusce vel mi urna. In sit amet condimentum ante. 
-                        Suspendisse in lacus tristique sapien feugiat accumsan. Aliquam eget varius ipsum, ac lacinia lectus. 
-                        Fusce non sem a quam tincidunt blandit. Nam rutrum quam quis tellus vehicula, vitae condimentum ante scelerisque. 
-                        Curabitur bibendum ut velit sagittis aliquet.</p>
+                      <p>Information Coming Soon.</p>
                     </div>
                   </div>
                 </div>
@@ -59,13 +53,7 @@ export default function Home() {
                   <div className={styles.textContent}>
                     <h2 className={styles.h2}>T-Shirt Shop</h2>
                     <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis in urna varius mattis. 
-                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                        Etiam hendrerit et nulla eget euismod. Nunc sodales neque a rutrum dapibus. 
-                        In venenatis tempus pellentesque. Fusce vel mi urna. In sit amet condimentum ante. 
-                        Suspendisse in lacus tristique sapien feugiat accumsan. Aliquam eget varius ipsum, ac lacinia lectus. 
-                        Fusce non sem a quam tincidunt blandit. Nam rutrum quam quis tellus vehicula, vitae condimentum ante scelerisque. 
-                        Curabitur bibendum ut velit sagittis aliquet.</p>
+                    <p>Information Coming Soon.</p>
                     </div>
                   </div>
                 </div>
@@ -76,13 +64,7 @@ export default function Home() {
                   <div className={styles.textContent}>
                     <h2 className={styles.h2}>Beverage Center</h2>
                     <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis in urna varius mattis. 
-                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                        Etiam hendrerit et nulla eget euismod. Nunc sodales neque a rutrum dapibus. 
-                        In venenatis tempus pellentesque. Fusce vel mi urna. In sit amet condimentum ante. 
-                        Suspendisse in lacus tristique sapien feugiat accumsan. Aliquam eget varius ipsum, ac lacinia lectus. 
-                        Fusce non sem a quam tincidunt blandit. Nam rutrum quam quis tellus vehicula, vitae condimentum ante scelerisque. 
-                        Curabitur bibendum ut velit sagittis aliquet.</p>
+                    <p>Information Coming Soon.</p>
                     </div>
                   </div>
                 </div>
